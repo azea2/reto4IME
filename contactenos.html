@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="styleReto4IME.css/styleReto4IME.css">
+
+    <!--Link Tipo de Letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap" rel="stylesheet">
+
+    <!--Link Tipo de Letra - Titulos y Subtiulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asset&family=Gayathri:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <!--SECCIÓN 1-->
+        <!--**SECCIÓN 1**-->
         <div>
             <!--LOGO-->
-            <img src="https://drive.google.com/uc?export=download&id=1FpvBM2-lHUx_wcizNjUWlbl8Cq4JvX78" width="20%" alt="Logo">
+            <img id=logo src="https://drive.google.com/uc?export=download&id=1FpvBM2-lHUx_wcizNjUWlbl8Cq4JvX78" alt="Logo">
             
             <!--MENÚ REGISTROS-->
             <nav>
-                <ul>
+                <ul class="menuReg">
                     <li><a href="registro.html">Regístrate</a></li>
                     <li><a href="registro.html">Inicia Sesión</a></li>
                 </ul>
@@ -24,7 +36,7 @@
 
             <!--MENÚ DE NAVEGACIÓN-->
             <nav>
-                <ul> 
+                <ul class="menuNav"> 
                     <li><a href="inicio.html">Inicio</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="cotizacion.html">Cotización</a></li>
@@ -33,28 +45,29 @@
             </nav>
 
             <!--LOGOS IDIOMAS-->
+            <div id="alnDr">
             <img src="https://images.emojiterra.com/twitter/v13.0/512px/1f1e8-1f1f4.png" width="3%" alt="idiomaEspañol">
             <img src="https://www.conmishijos.com/assets/posts/11000/11589-bandera-inglesa.jpg" width="4%" alt="idiomaEnglish">
             <br>
 
             <!--LOGOS WHATSAPP-->
             <a href="https://web.whatsapp.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1dHtHeXFtNdUJUJtKPAJx7IsP6AwKaJMi" width="5%" alt="logoWhatsApp"></a>
+            </div>
         </div>
     </header>
-    <br><br><br>
-
+    <br><br>
 
     <!--SECCIÓN 2-->
     <div>
         <!--TITULO Y PARRAFO CONTACTANOS-->
-        <h1 align="center">Contáctanos</h1>
-        <P align="center">Trabajamos por hacer realidad tus ideas</P>
+        <h1>Contáctanos</h1>
+        <P>Trabajamos por hacer realidad tus ideas</P>
         <br><br>
 
         <!--IMAGEN CONTACTANOS-->
         <img src="https://www.masquenegocio.com/wp-content/uploads/2017/04/atencion-cliente-874x492.jpg" width="40%" alt="imgContactanos">
 
-        <section align="rigth">
+        <section>
             <!--TITULO Y PARRAFO CONTACTANOS-->
             <h1>Talento que nos hace únicos</h1>
             <P>Conformamos <b>equipos de alto rendimiento para cada proyecto.</b> Es por ello que homologamos nuestros procesos de reclutamiento y selección con los gigantes tecnológicos en el mundo.</P>
@@ -70,7 +83,7 @@
 
 
     <!--SECCIÓN 3-->
-    </div align="rigth">
+    </div>
         <!--TITULO Y PARRAFO CONTACTANOS-->
         <h1>Otras Opciones</h1>
         <P>Ponte en contacto con nosotros en tiempo real mediante nuestro WhatsApp o puedes agendar una llamada.</P>
@@ -82,8 +95,10 @@
             <input type="datetime-local">
             <br><br>
 
-        <!--BOTON AGENDA LLAMADA-->
-        <a href=" " target="_blank"><input type="button" value="Agendar Llamada" align="center"></a>
+            <!--BOTON AGENDA LLAMADA-->
+            <div id="btn">
+                <a href=" " target="_blank"><input type="button" value="Agendar Llamada" align="center"></a>    
+            </div>
         </form>
     <div>
     <br><br><br>
@@ -96,13 +111,15 @@
         
         <!--PIE DE PÁGINA-->
         <footer>
-            <p align="left">Contáctenos <br> Medellín, Colombia</p>
-            <p align="center">AZ - Todos los derechos reservados - Powered by BlackSi</p>
+            <p id="alnIz">Contáctenos <br> Medellín, Colombia</p>
+            <p id="alnCt">AZ - Todos los derechos reservados - Powered by BlackSi</p>
         
             <!--LOGOS REDES-->
-            <a href="https://www.facebook.com/" target="_blank"><img align="rigth" src="https://drive.google.com/uc?export=download&id=1AtRgOOuDYZTRjabL-NxxuQfoFAOIxR_s" width="3%" alt="logoFaacebook"></a>
-            <a href="https://www.instagram.com/?hl=es" target="_blank"><img align="rigth" src="https://drive.google.com/uc?export=download&id=1KO-MNlwvwfU-bzKLySwgCxisoXHnnCOx" width="4%" alt="logoInstagram"></a>
-            <a href="https://www.youtube.com/" target="_blank"><img align="rigth" src="https://drive.google.com/uc?export=download&id=1pXiumXsSA3nDMeOw573C3i24oJBos05J" width="4%" alt="logoYoutube"></a>
+            <div id="alnDr">
+                <a href="https://www.facebook.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1AtRgOOuDYZTRjabL-NxxuQfoFAOIxR_s" width="3%" alt="logoFaacebook"></a>
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1KO-MNlwvwfU-bzKLySwgCxisoXHnnCOx" width="4%" alt="logoInstagram"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1pXiumXsSA3nDMeOw573C3i24oJBos05J" width="4%" alt="logoYoutube"></a>
+            </div>
         </footer>
     </div>
 </body>
